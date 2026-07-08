@@ -9,7 +9,6 @@ export default function Header() {
     { label: "Início", href: "#hero" },
     { label: "Sobre", href: "#about" },
     { label: "Serviços", href: "#services" },
-    { label: "Tecnologias", href: "#technologies" },
     { label: "Contato", href: "#contact" },
   ];
 
@@ -42,15 +41,11 @@ export default function Header() {
 
         {/* Desktop CTA */}
         <div className="hidden md:flex gap-3">
-          <Button
-            variant="outline"
-            className="border-white/20 text-white hover:bg-white/10 hover:border-white/40 transition-all duration-300"
-          >
-            Conheça nossos serviços
-          </Button>
-          <Button className="bg-gradient-to-r from-purple-600 to-blue-600 hover:from-purple-700 hover:to-blue-700 text-white border-0 shadow-lg shadow-purple-500/50 hover:shadow-purple-500/70 transition-all duration-300">
-            Solicitar Orçamento
-          </Button>
+          <a href="https://wa.me/558588741795" target="_blank" rel="noopener noreferrer">
+            <Button className="bg-gradient-to-r from-purple-600 to-blue-600 hover:from-purple-700 hover:to-blue-700 text-white border-0 shadow-lg shadow-purple-500/50 hover:shadow-purple-500/70 transition-all duration-300">
+              Solicitar Orçamento
+            </Button>
+          </a>
         </div>
 
         {/* Mobile Menu Button */}
@@ -77,15 +72,11 @@ export default function Header() {
               </a>
             ))}
             <div className="flex flex-col gap-2 pt-4 border-t border-white/10">
-              <Button
-                variant="outline"
-                className="border-white/20 text-white hover:bg-white/10 w-full"
-              >
-                Conheça nossos serviços
-              </Button>
-              <Button className="bg-gradient-to-r from-purple-600 to-blue-600 hover:from-purple-700 hover:to-blue-700 text-white border-0 w-full">
-                Solicitar Orçamento
-              </Button>
+              <a href="https://wa.me/558588741795" target="_blank" rel="noopener noreferrer" className="w-full">
+                <Button className="bg-gradient-to-r from-purple-600 to-blue-600 hover:from-purple-700 hover:to-blue-700 text-white border-0 w-full">
+                  Solicitar Orçamento
+                </Button>
+              </a>
             </div>
           </nav>
         </div>

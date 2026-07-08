@@ -33,20 +33,15 @@ export default function Hero() {
 
             {/* CTA Buttons */}
             <div className="flex flex-col sm:flex-row gap-4">
-              <Button
-                size="lg"
-                className="bg-gradient-to-r from-purple-600 to-blue-600 hover:from-purple-700 hover:to-blue-700 text-white border-0 shadow-lg shadow-purple-500/50 hover:shadow-purple-500/70 transition-all duration-300"
-              >
-                Solicitar Orçamento
-                <ArrowRight className="ml-2" size={20} />
-              </Button>
-              <Button
-                size="lg"
-                variant="outline"
-                className="border-white/20 text-white hover:bg-white/10 hover:border-white/40 transition-all duration-300"
-              >
-                Conheça nossos serviços
-              </Button>
+              <a href="https://wa.me/558588741795" target="_blank" rel="noopener noreferrer">
+                <Button
+                  size="lg"
+                  className="bg-gradient-to-r from-purple-600 to-blue-600 hover:from-purple-700 hover:to-blue-700 text-white border-0 shadow-lg shadow-purple-500/50 hover:shadow-purple-500/70 transition-all duration-300"
+                >
+                  Solicitar Orçamento
+                  <ArrowRight className="ml-2" size={20} />
+                </Button>
+              </a>
             </div>
 
             {/* Stats */}
@@ -67,7 +62,7 @@ export default function Hero() {
           </div>
 
           {/* Right Illustration */}
-          <div className="hidden lg:flex items-center justify-center">
+            <div className="hidden lg:flex items-center justify-center">
             <div className="relative w-full max-w-md">
               <div className="absolute inset-0 bg-gradient-to-r from-purple-600/20 to-blue-600/20 rounded-2xl blur-2xl"></div>
               <img

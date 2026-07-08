@@ -58,7 +58,7 @@ export default function Footer() {
             <h3 className="font-heading text-white text-sm">Contato</h3>
             <div className="flex flex-col gap-3">
               <a
-                href="mailto:contato@coderise.com.br"
+                href="mailto:coderisetecnologia@gmail.com"
                 className="flex items-center gap-2 text-muted hover:text-white transition-colors text-sm font-body"
               >
                 <Mail size={16} />

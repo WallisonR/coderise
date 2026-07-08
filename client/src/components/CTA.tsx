@@ -25,13 +25,15 @@ export default function CTA() {
             através da tecnologia.
           </p>
 
-          <Button
-            size="lg"
-            className="bg-gradient-to-r from-purple-600 to-blue-600 hover:from-purple-700 hover:to-blue-700 text-white border-0 shadow-lg shadow-purple-500/50 hover:shadow-purple-500/70 transition-all duration-300"
-          >
-            Solicitar orçamento
-            <ArrowRight className="ml-2" size={20} />
-          </Button>
+          <a href="https://wa.me/558588741795" target="_blank" rel="noopener noreferrer">
+            <Button
+              size="lg"
+              className="bg-gradient-to-r from-purple-600 to-blue-600 hover:from-purple-700 hover:to-blue-700 text-white border-0 shadow-lg shadow-purple-500/50 hover:shadow-purple-500/70 transition-all duration-300"
+            >
+              Solicitar orçamento
+              <ArrowRight className="ml-2" size={20} />
+            </Button>
+          </a>
         </div>
       </div>
     </section>
