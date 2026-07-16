@@ -1,3 +1,4 @@
+import ctaBackground from "@/assets/cta-background.webp";
 import { Button } from "@/components/ui/button";
 import { ArrowRight } from "lucide-react";
 
@@ -7,7 +8,7 @@ export default function CTA() {
       id="contact"
       className="py-20 relative overflow-hidden"
       style={{
-        backgroundImage: "url(/manus-storage/cta-background_a69f8508.png)",
+        backgroundImage: `url(${ctaBackground})`,
         backgroundSize: "cover",
         backgroundPosition: "center",
       }}

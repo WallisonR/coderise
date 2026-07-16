@@ -1,3 +1,4 @@
+import logo from "@/assets/logo.webp";
 import { Button } from "@/components/ui/button";
 import { Menu, X } from "lucide-react";
 import { useState } from "react";
@@ -18,7 +19,7 @@ export default function Header() {
         {/* Logo */}
         <div className="flex items-center gap-3">
           <img
-            src="/manus-storage/coderise-logo_a091edce.png"
+            src={logo}
             alt="CodeRise"
             className="w-10 h-10"
           />

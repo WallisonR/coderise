@@ -1,3 +1,4 @@
+import servicesIllustration from "@/assets/services-illustration.webp";
 import { Globe, Rocket, Link2, Cog, TrendingUp, Cloud } from "lucide-react";
 
 export default function Services() {
@@ -56,6 +57,16 @@ export default function Services() {
           <p className="text-lg text-muted font-body max-w-2xl mx-auto">
             Soluções completas para transformar sua presença digital
           </p>
+        </div>
+
+        {/* Illustration */}
+        <div className="hidden md:block relative mb-16 max-w-4xl mx-auto">
+          <div className="absolute inset-0 bg-gradient-to-r from-purple-600/10 to-blue-600/10 rounded-2xl blur-2xl"></div>
+          <img
+            src={servicesIllustration}
+            alt="Ecossistema de soluções CodeRise"
+            className="relative w-full h-auto rounded-2xl border border-white/10 shadow-2xl"
+          />
         </div>
 
         {/* Services Grid */}

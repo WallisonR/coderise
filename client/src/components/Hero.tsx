@@ -1,3 +1,4 @@
+import heroIllustration from "@/assets/hero-illustration.webp";
 import { Button } from "@/components/ui/button";
 import { ArrowRight } from "lucide-react";
 
@@ -66,7 +67,7 @@ export default function Hero() {
             <div className="relative w-full max-w-md">
               <div className="absolute inset-0 bg-gradient-to-r from-purple-600/20 to-blue-600/20 rounded-2xl blur-2xl"></div>
               <img
-                src="/manus-storage/hero-illustration_1ea8eec1.png"
+                src={heroIllustration}
                 alt="Tech Illustration"
                 className="relative w-full h-auto rounded-2xl border border-white/10 shadow-2xl"
               />

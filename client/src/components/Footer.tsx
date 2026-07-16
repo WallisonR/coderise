@@ -1,17 +1,29 @@
+import footerPattern from "@/assets/footer-pattern.webp";
+import logo from "@/assets/logo.webp";
 import { Mail, Phone, Instagram, Linkedin } from "lucide-react";
 
 export default function Footer() {
   const currentYear = new Date().getFullYear();
 
   return (
-    <footer className="bg-card border-t border-white/10 mt-20">
-      <div className="container py-16">
+    <footer className="relative bg-card border-t border-white/10 mt-20 overflow-hidden">
+      {/* Subtle background pattern */}
+      <div
+        className="absolute inset-0 opacity-20 pointer-events-none"
+        style={{
+          backgroundImage: `url(${footerPattern})`,
+          backgroundSize: "cover",
+          backgroundPosition: "center",
+        }}
+      ></div>
+
+      <div className="container py-16 relative z-10">
         <div className="grid grid-cols-1 md:grid-cols-4 gap-12 mb-12">
           {/* Brand */}
           <div className="flex flex-col gap-4">
             <div className="flex items-center gap-2">
               <img
-                src="/manus-storage/coderise-logo_a091edce.png"
+                src={logo}
                 alt="CodeRise"
                 className="w-8 h-8"
               />
