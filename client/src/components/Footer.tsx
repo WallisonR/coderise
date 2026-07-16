@@ -56,12 +56,6 @@ export default function Footer() {
               >
                 Serviços
               </a>
-              <a
-                href="#technologies"
-                className="text-muted hover:text-white transition-colors text-sm font-body"
-              >
-                Tecnologias
-              </a>
             </nav>
           </div>
 
