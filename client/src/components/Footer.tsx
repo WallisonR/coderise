@@ -77,7 +77,7 @@ export default function Footer() {
                 Email
               </a>
               <a
-                href="https://wa.me/5511999999999"
+                href="https://wa.me/5585988741795"
                 className="flex items-center gap-2 text-muted hover:text-white transition-colors text-sm font-body"
               >
                 <Phone size={16} />
